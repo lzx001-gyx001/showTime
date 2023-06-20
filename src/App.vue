@@ -1,5 +1,9 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import axios from 'axios'
+
+
+axios.get("/backend/123/123")
 </script>
 
 <template>
