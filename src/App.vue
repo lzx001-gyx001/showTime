@@ -2,8 +2,10 @@
 import HelloWorld from './components/HelloWorld.vue'
 import axios from 'axios'
 
-
-axios.get("/backend/123/123")
+const url = "/api/books/1/8?name=&type=&description="
+axios.get(url).then(res=>{
+  console.log("结果",res)
+})
 </script>
 
 <template>

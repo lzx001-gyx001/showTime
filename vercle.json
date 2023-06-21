@@ -1,8 +1,8 @@
 {
     "rewrites": [
       {
-        "source": "/backend/(.*)",
-        "destination": "/api/proxy"
+        "source": "/api/(.*)",
+        "destination": "http://aura.home-cloud.fun:1050"
       }
     ]
   }
