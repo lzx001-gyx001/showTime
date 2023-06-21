@@ -2,7 +2,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import axios from 'axios'
 
-const url = "/api/books/1/8?name=&type=&description="
+const url = "/api/cron/books/1/8?name=&type=&description="
 axios.get(url).then(res=>{
   console.log("结果",res)
 })
